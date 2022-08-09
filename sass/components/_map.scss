@@ -1,0 +1,60 @@
+@import '../base/extend';
+@import '../base/variables';
+
+#map{
+    background: url("../img/map.png");
+    position: relative;
+    .map__fondo{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.658);
+        .map__container{
+            @extend %containerLg;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            
+            .container__text{
+                background-color: rgba(0, 0, 0, 0.534);
+                color: $color-white;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                p{
+                    font-size: $fs-title;
+                    color: $color-white;
+                    font-weight: bold;
+                    font-family: $ff-cursiva;
+                    padding: 20px;
+
+                    .gold{
+                        color: $color-gold;
+                    }
+                }
+                h5{
+                    padding: 30px;
+                    width: 80%;
+                    font-weight: lighter;
+                    font-size: 18px;
+                }
+            }
+
+            .container__map{
+                .mapouter{
+                    iframe{
+                        height: 100%;
+                    }
+                }
+            }
+
+            @media (min-width:992px){
+                grid-template-rows: 1fr;
+                grid-template-columns: 1fr 1fr;
+                padding: 50px 0;
+
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,135 @@
+@import '../base/extend';
+@import '../base/variables';
+
+#head{
+    background-color: $bg-gray;
+    overflow: hidden;
+    .head__container{
+        padding-top:60px; 
+        @extend %containerLg;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 143px 103px 183px;
+        color: $color-white;
+        height: 429px;
+
+        .head__media{
+            grid-row: 3/4;
+            @extend %flexCenter;
+            flex-direction: column;
+            .head__div{
+                @extend %flexCenter;
+                transform: rotate(-90deg);
+                div{
+                    margin-right: 5px;
+                    width: 50px;
+                    height: 1px;
+                    background-color: $color-white;
+                }
+            }
+
+            ul{
+                padding-top: 70px;
+                list-style: none;
+                li{
+                    padding: 5px;
+                }
+            }
+        }
+
+        .head__titles{
+            padding-top: 20px;
+            text-align: center;
+            grid-row: 1/2;
+            grid-column: 1/4;
+            p{
+                font-size: $fs-title;
+                font-family: $ff-cursiva;
+                font-weight: bold;
+            }
+            i{
+                padding: 10px;
+                font-size: 20px;
+            }
+            div{
+                h1{
+                    font-weight: 100;
+                    font-size: 14px;
+                    color: $color-gray;
+                }
+
+                button{
+                    margin-top: 40px;
+                    background-color: transparent;
+                    border: 1px solid $color-white;
+                    color: $color-white;
+                    border-radius: 30px;
+                    padding: 5px 15px;
+                    transition: all .5s;
+                    &:hover{
+                        background-color: $color-white;
+                        color: $color-black;
+                    }
+                }
+            }
+        }
+
+        .head__img{
+            padding: 20px 0;
+            grid-row: 3/4;
+            grid-column: 2/4;
+            position: relative;
+            img{
+                position: absolute;
+                width: 100%;
+                top: -20px;
+            }
+        }
+
+        @media (min-width:992px){
+            
+            .head__media{
+                grid-row: 1/4;
+                grid-column: 1/2;
+                justify-self: flex-start;
+                align-self: flex-end;
+                margin: 0 10px;
+                margin-bottom: 20px;
+            }
+            .head__titles{
+                grid-row: 1/4;
+                grid-column: 1/3;
+                justify-self: center;
+                p{
+                    font-size: 70px;
+                }
+                i{
+                    margin-bottom: 30px;
+                    font-size: 40px;
+                }
+                div{
+                    width: 70%;
+                    margin: auto;
+                    h1{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .head__img{
+                grid-row: 1/4;
+                grid-column: 3/4;
+                align-self: center;
+                justify-self: center;
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 650px;
+                    top: 50px;
+                    left: 0;
+                }
+            }
+        }
+
+    }
+
+}

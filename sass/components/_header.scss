@@ -1,0 +1,110 @@
+@import '../base/extend';
+@import '../base/variables';
+
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    .header__container{
+        padding: 0 20px;
+        height: 60px;
+        position: relative;
+        @extend %containerLg;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+        &:hover > .header__ul > .ul__bars > ul{
+            display: flex;
+        }
+        div{
+            color: #fff;
+            @extend %flexCenter;
+            img{
+                width: 50px;
+                margin-right: 10px;
+            }
+        }
+
+        .header__ul{
+            @extend %flexCenter;
+            
+            .ul__bars{
+                list-style: none;
+                i{  
+                    font-size: 25px;
+                    color: #fff;
+                    border: 1px solid rgba(255, 255, 255, 0.644);
+                    padding: 5px 10px ;
+                    border-radius: 5px ;
+                    background-color: rgba(0, 0, 0, 0.147);
+                }
+                ul{
+                    background-color: $gray-gradient;
+                    display: none;
+                    flex-direction: column;
+                    position: absolute;
+                    width: 100%;
+                    right: 0;
+                    top: 60px;
+                    list-style: none;
+                    li{
+                        width: 100%;
+                        text-align: end;
+                        padding: 10px 0;
+                        transition: all .5s;
+                        &:hover{
+                            background-color: #fff;
+                        }
+
+                        &:hover > a{
+                            color: #000;
+                        }
+                        a{
+                            padding-right: 20px;
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                @media (min-width:992px){
+                    i{
+                        display: none;
+                    }
+
+                    ul{
+                        top: 0;
+                        width: 40%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: end;
+                        height: 60px;
+                        background-color: transparent;
+                        li{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            a{
+                                font-size: 14px;
+                                color: $color-white;
+                            }
+
+                            &:hover{
+                                background-color: transparent;
+                                a{
+                                    color: $color-white;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }       
+        }
+    }
+}
+
+.abajo{
+    background-color: $gray-gradient;
+}

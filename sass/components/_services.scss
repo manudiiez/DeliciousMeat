@@ -1,0 +1,57 @@
+@import '../base/extend';
+@import '../base/variables';
+
+#services{
+    background-color: $bg-gray;
+    .services__container{
+        @extend %containerLg;
+        @extend %flexCenter;
+        flex-direction: column;
+        padding: 50px 0;
+        color: $color-white;
+        text-align: center;
+
+        .container__title{
+            font-size: $fs-title;
+            font-family: $ff-cursiva;
+            font-weight: bold;
+            margin-bottom: 20px;
+            .gold{
+                color: $color-gold;
+            }
+        }
+
+        h3{
+            font-size: $fs-subtitle;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+
+        .container__cards{
+            @extend %flexCenter;
+            flex-wrap: wrap;
+
+            .card{
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+                padding: 10px;
+                @extend %flexCenter;
+                flex-direction: column;
+                img{
+                    width: 80px;
+                }
+
+                p{
+                    color: $color-gold;
+                    margin-bottom: 10px;
+                }
+
+                h4{
+                    font-weight: lighter;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

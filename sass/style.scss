@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import './components/header';
+@import './components/head';
+@import './components/about';
+@import './components/services';
+@import './components/menu';
+@import './components/map';
+@import './components/footer';
+
+@import './base/extend';
+@import './base/variables';

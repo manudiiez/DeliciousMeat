@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #services .services__container, #about .about__container, #head .head__container, #header .header__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container .header__ul, #header .header__container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+#header .header__container {
+  padding: 0 20px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+#header .header__container:hover > .header__ul > .ul__bars > ul {
+  display: flex;
+}
+#header .header__container div {
+  color: #fff;
+}
+#header .header__container div img {
+  width: 50px;
+  margin-right: 10px;
+}
+#header .header__container .header__ul .ul__bars {
+  list-style: none;
+}
+#header .header__container .header__ul .ul__bars i {
+  font-size: 25px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.644);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.147);
+}
+#header .header__container .header__ul .ul__bars ul {
+  background-color: #474b4eb5;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 60px;
+  list-style: none;
+}
+#header .header__container .header__ul .ul__bars ul li {
+  width: 100%;
+  text-align: end;
+  padding: 10px 0;
+  transition: all 0.5s;
+}
+#header .header__container .header__ul .ul__bars ul li:hover {
+  background-color: #fff;
+}
+#header .header__container .header__ul .ul__bars ul li:hover > a {
+  color: #000;
+}
+#header .header__container .header__ul .ul__bars ul li a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  #header .header__container .header__ul .ul__bars i {
+    display: none;
+  }
+  #header .header__container .header__ul .ul__bars ul {
+    top: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 60px;
+    background-color: transparent;
+  }
+  #header .header__container .header__ul .ul__bars ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #header .header__container .header__ul .ul__bars ul li a {
+    font-size: 14px;
+    color: #fff;
+  }
+  #header .header__container .header__ul .ul__bars ul li:hover {
+    background-color: transparent;
+  }
+  #header .header__container .header__ul .ul__bars ul li:hover a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.abajo {
+  background-color: #474b4eb5;
+}
+
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #services .services__container, #about .about__container, #head .head__container, #header .header__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container div, #header .header__container .header__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+#head {
+  background-color: #474b4e;
+  overflow: hidden;
+}
+#head .head__container {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 143px 103px 183px;
+  color: #fff;
+  height: 429px;
+}
+#head .head__container .head__media {
+  grid-row: 3/4;
+  flex-direction: column;
+}
+#head .head__container .head__media .head__div {
+  transform: rotate(-90deg);
+}
+#head .head__container .head__media .head__div div {
+  margin-right: 5px;
+  width: 50px;
+  height: 1px;
+  background-color: #fff;
+}
+#head .head__container .head__media ul {
+  padding-top: 70px;
+  list-style: none;
+}
+#head .head__container .head__media ul li {
+  padding: 5px;
+}
+#head .head__container .head__titles {
+  padding-top: 20px;
+  text-align: center;
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+#head .head__container .head__titles p {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+#head .head__container .head__titles i {
+  padding: 10px;
+  font-size: 20px;
+}
+#head .head__container .head__titles div h1 {
+  font-weight: 100;
+  font-size: 14px;
+  color: #8b8989;
+}
+#head .head__container .head__titles div button {
+  margin-top: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 15px;
+  transition: all 0.5s;
+}
+#head .head__container .head__titles div button:hover {
+  background-color: #fff;
+  color: #000;
+}
+#head .head__container .head__img {
+  padding: 20px 0;
+  grid-row: 3/4;
+  grid-column: 2/4;
+  position: relative;
+}
+#head .head__container .head__img img {
+  position: absolute;
+  width: 100%;
+  top: -20px;
+}
+@media (min-width: 992px) {
+  #head .head__container .head__media {
+    grid-row: 1/4;
+    grid-column: 1/2;
+    justify-self: flex-start;
+    align-self: flex-end;
+    margin: 0 10px;
+    margin-bottom: 20px;
+  }
+  #head .head__container .head__titles {
+    grid-row: 1/4;
+    grid-column: 1/3;
+    justify-self: center;
+  }
+  #head .head__container .head__titles p {
+    font-size: 70px;
+  }
+  #head .head__container .head__titles i {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  #head .head__container .head__titles div {
+    width: 70%;
+    margin: auto;
+  }
+  #head .head__container .head__titles div h1 {
+    font-size: 18px;
+  }
+  #head .head__container .head__img {
+    grid-row: 1/4;
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+  }
+  #head .head__container .head__img img {
+    width: 650px;
+    top: 50px;
+    left: 0;
+  }
+}
+
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #services .services__container, #about .about__container, #header .header__container, #head .head__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+#about .about__container {
+  padding: 50px 30px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+#about .about__container .container__img {
+  grid-row: 2/3;
+}
+#about .about__container .container__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#about .about__container .container__img img:nth-child(2) {
+  display: none;
+}
+#about .about__container .container__img img:nth-child(3) {
+  display: none;
+}
+#about .about__container .container__text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#about .about__container .container__text p {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#about .about__container .container__text h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+#about .about__container .container__text h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #8b8989;
+  margin-bottom: 40px;
+}
+#about .about__container .container__text button {
+  margin: 20px 0;
+  background-color: transparent;
+  color: #efb810;
+  border: 1px solid #efb810;
+  border-radius: 30px;
+  padding: 5px 15px;
+  transition: all 0.5s;
+}
+#about .about__container .container__text button:hover {
+  background-color: #efb810;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  #about .about__container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 50px;
+    padding: 50px 0;
+  }
+  #about .about__container .container__img {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+  }
+  #about .about__container .container__img img:nth-child(1) {
+    grid-row: 1/3;
+    grid-column: 1/2;
+  }
+  #about .about__container .container__img img:nth-child(2) {
+    display: block;
+  }
+  #about .about__container .container__img img:nth-child(3) {
+    display: block;
+  }
+  #about .about__container .container__text {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+}
+
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #services .services__container, #header .header__container, #head .head__container, #about .about__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+#services {
+  background-color: #474b4e;
+}
+#services .services__container {
+  flex-direction: column;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+#services .services__container .container__title {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#services .services__container .container__title .gold {
+  color: #efb810;
+}
+#services .services__container h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+#services .services__container .container__cards {
+  flex-wrap: wrap;
+}
+#services .services__container .container__cards .card {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+#services .services__container .container__cards .card img {
+  width: 80px;
+}
+#services .services__container .container__cards .card p {
+  color: #efb810;
+  margin-bottom: 10px;
+}
+#services .services__container .container__cards .card h4 {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #header .header__container, #head .head__container, #about .about__container, #services .services__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+#menu .menu__container .container__type {
+  padding: 50px 0;
+}
+#menu .menu__container .container__type .type__title {
+  text-align: center;
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+#menu .menu__container .container__type .type__title .gold {
+  color: #efb810;
+}
+#menu .menu__container .container__type .cards__type {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 20px;
+}
+#menu .menu__container .container__type .cards__type .card__container {
+  width: 100%;
+}
+#menu .menu__container .container__type .cards__type .card__container h5 {
+  color: #efb810;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 10px 0;
+}
+#menu .menu__container .container__type .cards__type .card__container .card__body .body__description {
+  font-weight: lighter;
+  color: #8b8989;
+}
+#menu .menu__container .container__type .cards__type .card__container .card__body .body__price {
+  color: #efb810;
+}
+#menu .menu__container .container__type .cards__type .card__container .card__body .body__separator {
+  width: 30%;
+  margin: 0 5px;
+  height: 1px;
+  background-color: #8b8989;
+}
+@media (min-width: 768px) {
+  #menu .menu__container .container__type .cards__type {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+#menu .menu__container .container__type .container__arrows {
+  width: 100%;
+  padding: 20px 0;
+}
+#menu .menu__container .container__type .container__arrows i {
+  font-size: 30px;
+  color: #efb810;
+  border: 2px solid #efb810;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+#menu .menu__container .container__type .container__arrows i:hover {
+  background-color: #efb810;
+  color: #fff;
+}
+
+#footer .footer__container, #map .map__fondo .map__container, #header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#footer .footer__container div, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+#map {
+  background: url("../img/map.png");
+  position: relative;
+}
+#map .map__fondo {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+#map .map__fondo .map__container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+#map .map__fondo .map__container .container__text {
+  background-color: rgba(0, 0, 0, 0.534);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#map .map__fondo .map__container .container__text p {
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  padding: 20px;
+}
+#map .map__fondo .map__container .container__text p .gold {
+  color: #efb810;
+}
+#map .map__fondo .map__container .container__text h5 {
+  padding: 30px;
+  width: 80%;
+  font-weight: lighter;
+  font-size: 18px;
+}
+#map .map__fondo .map__container .container__map .mapouter iframe {
+  height: 100%;
+}
+@media (min-width: 992px) {
+  #map .map__fondo .map__container {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+  }
+}
+
+#footer .footer__container, #header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container, #map .map__fondo .map__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#footer .footer__container div, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#footer .footer__container {
+  min-height: 100px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  color: #fff;
+}
+#footer .footer__container div img {
+  width: 50px;
+  margin-right: 10px;
+}
+#footer .footer__container div p {
+  font-weight: lighter;
+  font-size: 18px;
+}
+#footer .footer__container .footer__link {
+  text-decoration: none;
+  color: #efb810;
+}
+#footer .footer__container .footer__link h6 {
+  font-weight: lighter;
+  font-size: 14px;
+}
+#footer .footer__container .footer__link:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+#footer .footer__container ul {
+  list-style: none;
+}
+#footer .footer__container ul li a {
+  margin: 5px;
+  color: #fff;
+}
+#footer .footer__container ul li a:hover {
+  color: #efb810;
+}
+@media (min-width: 992px) {
+  #footer .footer__container {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+#header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container, #map .map__fondo .map__container, #footer .footer__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows, #footer .footer__container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+/*# sourceMappingURL=style.css.map */

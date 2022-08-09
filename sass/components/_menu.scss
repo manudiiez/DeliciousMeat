@@ -1,0 +1,82 @@
+@import '../base/extend';
+@import '../base/variables';
+
+#menu{
+    .menu__container{
+        @extend %containerLg;
+        .container__type{
+            padding: 50px 0;
+            .type__title{
+                text-align: center;
+                color: $color-black;
+                font-size: $fs-title;
+                font-weight: bold;
+                font-family: $ff-cursiva;
+                
+                .gold{
+                    color: $color-gold;
+                }
+            }
+
+            .cards__type{
+                padding: 20px;
+                display: grid;
+                grid-template-columns: 1fr;
+                align-items: center;
+                justify-items: center;
+                grid-gap: 20px;
+                .card__container{
+                    width: 100%;
+                    h5{
+                        color: $color-gold;
+                        font-size: $fs-subtitle;
+                        font-weight: normal;
+                        padding: 10px 0
+                    }
+
+                    .card__body{
+                        @extend %flexCenter;
+                        .body__description{
+                            font-weight: lighter;
+                            color: $color-gray;
+                        }
+
+                        .body__price{
+                            color: $color-gold;
+                        }
+
+                        .body__separator{
+                            width: 30%;
+                            margin: 0 5px;
+                            height: 1px;
+                            background-color: $color-gray;
+                        }
+
+                    }
+                }
+
+                @media (min-width: 768px){
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+
+            .container__arrows{
+                width: 100%;
+                @extend %flexCenter;
+                padding: 20px 0;
+                i{
+                    font-size: 30px;
+                    color: $color-gold;
+                    border: 2px solid $color-gold;
+                    margin: 10px;
+                    padding: 5px 10px;
+                    border-radius: 10px;
+                    &:hover{
+                        background-color: $color-gold;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+}
